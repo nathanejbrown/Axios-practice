@@ -5,7 +5,6 @@ import './Post.css';
 
 const post = (props) => {
   //this is only here to demonstrate using withRouter() to pass Router props from a stateful component (props) to a stateless one.
-  console.log(props);
 
   return (
     <article className="Post" onClick={props.clicked}>
